@@ -18,9 +18,9 @@ taskipy = "^1.14.1"
 lint = 'ruff check'
 pre_format = 'ruff check --fix'
 format = 'ruff format'
-run = 'fastapi dev fastapi_dunossauro/app.py'
+run = 'fastapi dev fastapi_Dunossauro/app.py'
 pre_test = 'task lint'
-test = 'pytest -s -x --cov=fastapi_dunossauro -vv'
+test = 'pytest -s -x --cov=fastapi_Dunossauro -vv'
 post_test = 'coverage html'
 
 [tool.poetry.group.pytest.dependencies]
