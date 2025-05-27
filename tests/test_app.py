@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from fastapi.testclient import TestClient
 
-from fastapi_dunossauro.app import app
+from fastapi_Dunossauro.app import app
 
 # teste composto de 3 etapas.
 # Organizar (arrange), Agir(Act), Afirmar(assert),
