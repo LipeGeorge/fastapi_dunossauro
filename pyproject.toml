@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.12.*"
 fastapi = "^0.115.12"
+sqlalchemy = "^2.0.41"
+pydantic-settings = "^2.9.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -22,6 +24,7 @@ run = 'fastapi dev fastapi_Dunossauro/app.py'
 pre_test = 'task lint'
 test = 'pytest -s -x --cov=fastapi_Dunossauro -vv'
 post_test = 'coverage html'
+list_run = 'fastapi dev Praticas_sala/Lista_06/main.py'
 
 [tool.poetry.group.pytest.dependencies]
 pytest-cov = "^6.1.1"
